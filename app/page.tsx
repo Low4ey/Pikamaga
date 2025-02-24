@@ -49,10 +49,12 @@ export default function Home() {
             SHOCKING ⚡ the Crypto World with 500% Gains! 🚀
           </p>
           <div className="flex justify-center gap-4">
+            <Link href="https://pump.fun/coin/3xC7SV6LU5NgNej6V5vwbxeRYdrpAnNbxxAuX9hmpump" target="_blank">
             <Button size="lg" className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 shadow-[0_0_15px_rgba(255,0,0,0.3)] transition-all duration-300 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)]">
               <Rocket className="mr-2 h-5 w-5" /> Buy Now
             </Button>
-            <Link href="https://twitter.com/pikamagacoin" passHref>
+            </Link>
+            <Link href="https://twitter.com/pikamagacoin" target="_blank">
                 <Button size="lg" variant="outline" className="border-2 border-blue-500 text-blue-400 hover:bg-blue-500/10 shadow-[0_0_15px_rgba(0,0,255,0.3)] transition-all duration-300 hover:shadow-[0_0_25px_rgba(0,0,255,0.5)]">
                   <Twitter className="mr-2 h-5 w-5" /> Twitter
                 </Button>
